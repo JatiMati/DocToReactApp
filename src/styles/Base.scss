@@ -1,0 +1,135 @@
+@import 'Index';
+
+// body {
+//     background-color: red;
+// }
+
+.profile-pop-bc {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(31, 31, 31, 0.815);
+    // transition: 1s;
+
+    i {
+        cursor: pointer;
+        font-size: 40px;
+        position: absolute;
+        color: $white;
+        right: 20px;
+        top: 20px;
+        opacity: 0.6;
+        transition: .1s;
+
+    }
+
+    i:hover {
+        opacity: 0.9;
+    }
+
+    .profile-pop__data {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        // height: 30vh;
+        min-width: 40vw;
+        background-color: $light-grey;
+        border-radius: 20px;
+        // pointer-events: none;
+
+        font-family: $sofia-font;
+        color: $white;
+        padding: 20px;
+        // margin-left: 50px;
+
+
+        .profile-pop__flex1 {
+            margin-right: 100px;
+            display: flex;
+            flex-direction: column;
+            font-size: 40px;
+            font-weight: 700;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 200px;
+                width: 200px;
+                border-radius: 100px;
+            }
+        }
+
+        .description-flex-wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            font-size: 20px;
+
+            .bold {
+                font-weight: 700;
+            }
+
+            .profile-pop__flex2 {
+                display: flex;
+                flex-direction: column;
+                margin: 0 0 20px 0;
+
+                p {
+                    margin: 3px 0;
+                }
+            }
+        }
+
+
+    }
+}
+
+.base-wrapper {
+    background-color: $grey;
+    height: 100vh;
+
+
+    input {
+        background-color: $light-grey;
+        border: none;
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;
+        margin: 100px 0 20px 200px;
+        color: $grey-text;
+        font-family: $sofia-font;
+        font-size: 20px;
+        transition: .2s;
+        padding: 10px;
+    }
+
+    input:focus {
+        // border: none;
+        outline: none;
+        background-color: $lighter-grey;
+        // background-color: red;
+    }
+
+    input:hover {
+        background-color: $lighter-grey;
+    }
+
+    .patients-wrapper {
+        overflow: scroll;
+    }
+
+    .patients-wrapper-size {
+        height: 80vh;
+        margin: 0 200px 0 200px;
+
+
+
+    }
+
+}

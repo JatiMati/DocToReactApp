@@ -1,0 +1,204 @@
+@import 'Index';
+
+
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 800px;
+    background-color: $light-grey;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: $white;
+
+    box-shadow: 0px 10px 20px 5px rgba(17, 17, 17, 0.281);
+
+    .label-container {
+        display: flex;
+        flex-direction: row;
+        // justify-content: left;
+        align-items: center;
+        padding: 30px 70px 0 20px;
+        text-align: right;
+    }
+
+    input {
+        width: 300px;
+        height: 30px;
+        margin-left: 10px;
+        padding: 10px;
+
+
+        background-color: $grey;
+        border: none;
+        border-radius: 10px;
+
+        color: $grey-text;
+        font-family: $sofia-font;
+        font-weight: 500;
+        font-size: 18px;
+
+        transition: .2s;
+    }
+
+    input:focus {
+        background-color: $lighter-grey;
+        outline: $light-grey;
+    }
+
+
+    label.form-part {}
+
+
+    label {
+        flex-grow: 1;
+        display: inline-block;
+        font-family: $sofia-font;
+        font-size: 18px;
+        color: $white;
+    }
+
+    .radio-label {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 30px 150px 0 150px;
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            // margin-right: 20px;
+        }
+
+        input {
+            width: 15px;
+
+            // border: 2px solid red
+            margin-right: 10px;
+        }
+    }
+
+    textarea {
+        padding: 10px;
+        width: 300px;
+        margin-left: 10px;
+        height: 100px;
+        background-color: $grey;
+        border: none;
+        border-radius: 10px;
+
+        color: $white;
+        font-family: $sofia-font;
+        font-weight: 500;
+        font-size: 18px;
+        transition: .2s;
+    }
+
+    textarea:focus {
+        background-color: $lighter-grey;
+        outline: $light-grey;
+    }
+
+    .submitButton {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0;
+        position: relative;
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+
+            background: #2E2E2E;
+            box-shadow: inset -19px 21px 50px -15px rgba(0, 0, 0, 0.41);
+
+            button {
+                position: absolute;
+                top: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                width: 70px;
+                height: 70px;
+                transition: .1s;
+                color: $white;
+
+
+
+                background: #2E2E2E;
+                box-shadow: -8px 11px 14px 1px rgba(0, 0, 0, 0.44), inset 31px -31px 45px -33px rgba(0, 0, 0, 0.67);
+
+                text-align: center;
+                line-height: 40px;
+                border-radius: 100%;
+
+                font-size: 25px;
+                font-weight: bold;
+                font-family: $sofia-font;
+                border: none;
+            }
+
+            button:hover {
+                cursor: pointer;
+                color: $pink;
+            }
+
+            button:active {
+                background: #2E2E2E;
+                box-shadow: inset -31px 31px 45px -33px rgba(0, 0, 0, 0.67);
+                font-size: 20px;
+            }
+
+            .spinLoad {
+                // animation: loadSpin 1s;
+            }
+        }
+
+    }
+}
+
+.slideIn {
+    animation: swipeIn .5s ease;
+}
+
+.slideOut {
+    animation: swipeOut .5s ease forwards;
+
+}
+
+@keyframes swipeIn {
+    0% {
+        transform: translate(-50%, 100%);
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+@keyframes swipeOut {
+
+    0% {
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        transform: translate(-50%, 100%);
+    }
+}

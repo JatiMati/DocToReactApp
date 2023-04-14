@@ -1,0 +1,284 @@
+@import 'Index';
+
+.home {
+    // display: flex;
+
+
+    font-size: 150px;
+    color: $white;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
+
+
+
+    .home__logo-icon {
+        position: absolute;
+        left: 35vw;
+        top: 40vh;
+        margin-right: 10px;
+
+        transition: .2s;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .fastBeat {
+        animation: logoMove 1.4s infinite;
+    }
+
+    .slowBeat {
+        animation: logoMove 3.5s infinite;
+    }
+
+    .home__logo-icon:hover {
+        color: $pink;
+    }
+
+
+
+    .home__logo-text {
+        position: absolute;
+        left: 50vw;
+        top: 40vh;
+        transform: translate(-50%, -50%);
+        animation: textMove 5s infinite;
+        transition: .2s;
+
+    }
+
+
+    .home__logo-text span {
+        // position: absolute;
+        transition: .2s;
+        transform: rotate(0deg);
+    }
+
+    .home__logo-text span:hover:nth-child(1) {
+        color: $pink;
+        letter-spacing: 30px;
+        font-weight: bold;
+        animation: textJump 1s linear infinite;
+        // animation: textJump .5s forwards;
+    }
+
+    .home__logo-text span:hover:nth-child(2) {
+        color: $pink;
+        letter-spacing: 30px;
+        font-weight: bold;
+        animation: textJump 1s linear infinite;
+    }
+
+    .home__logo-text span:hover:nth-child(3) {
+        color: $pink;
+        letter-spacing: 30px;
+        font-weight: bold;
+        animation: textJump 1s linear infinite;
+    }
+
+    .home__logo-text span:hover:nth-child(4) {
+        color: $pink;
+        letter-spacing: 30px;
+        font-weight: bold;
+        animation: textJump 1s linear infinite;
+
+    }
+
+    .home__logo-text span:hover:nth-child(5) {
+        color: $pink;
+        letter-spacing: 30px;
+        font-weight: bold;
+        animation: textJump 1s linear infinite;
+        // padding-bottom: 50px;
+    }
+
+}
+
+.wave {
+    background-image: url("data:image/svg+xml,%3Csvg width='1920' height='376' viewBox='0 0 1920 376' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1018.52 74.8049C631.771 -74.8083 178.361 34.1206 0 107.287V376H1920V107.287C1780.66 158.798 1405.28 224.418 1018.52 74.8049Z' fill='%231F1F1F'/%3E%3C/svg%3E");
+    height: 100vh;
+    width: 200vw;
+    position: absolute;
+    top: 650px;
+    left: 0;
+    opacity: 0.9;
+    filter: blur(2px);
+
+}
+
+.slowAnim1 {
+    animation: waveMove 15s infinite reverse linear;
+    opacity: 1;
+}
+
+.fastAnim1 {
+    animation: waveMove 15s infinite reverse linear;
+    top: 1200px;
+    opacity: 0;
+}
+
+.wave2 {
+    background-image: url("data:image/svg+xml,%3Csvg width='1920' height='376' viewBox='0 0 1920 376' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1018.52 74.8049C631.771 -74.8083 178.361 34.1206 0 107.287V376H1920V107.287C1780.66 158.798 1405.28 224.418 1018.52 74.8049Z' fill='%232A2A2A' /%3E%3C/svg%3E");
+    height: 100vh;
+    width: 200vw;
+    position: absolute;
+    top: 600px;
+    left: 0;
+
+    opacity: 0.6;
+    filter: blur(5px);
+    transition: .3s;
+}
+
+.slowAnim2 {
+    animation: waveMove 30s infinite reverse linear;
+}
+
+.fastAnim2 {
+    animation: waveMove 30s infinite reverse linear;
+    top: 1200px;
+}
+
+.wave3 {
+    background-image: url("data:image/svg+xml,%3Csvg width='1920' height='376' viewBox='0 0 1920 376' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1018.52 74.8049C631.771 -74.8083 178.361 34.1206 0 107.287V376H1920V107.287C1780.66 158.798 1405.28 224.418 1018.52 74.8049Z' fill='%23a32c42' /%3E%3C/svg%3E");
+    height: 100vh;
+    width: 200vw;
+    position: absolute;
+    top: 1200px;
+    left: 0;
+
+    opacity: 0.6;
+    filter: blur(5px);
+    opacity: 0;
+    transition: .3s;
+
+
+}
+
+.slowAnim3 {
+    animation: waveMove 25s infinite reverse linear forwards;
+    opacity: 0;
+}
+
+.fastAnim3 {
+    animation: waveMove 1s infinite reverse linear forwards;
+    top: 500px;
+    opacity: 1;
+}
+
+.wave4 {
+    background-image: url("data:image/svg+xml,%3Csvg width='1920' height='376' viewBox='0 0 1920 376' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1018.52 74.8049C631.771 -74.8083 178.361 34.1206 0 107.287V376H1920V107.287C1780.66 158.798 1405.28 224.418 1018.52 74.8049Z' fill='%23CD3752' /%3E%3C/svg%3E");
+    height: 100vh;
+    width: 200vw;
+    position: absolute;
+    top: 1200px;
+    left: 0;
+    opacity: 0.6;
+    filter: blur(5px);
+    opacity: 0.5;
+    transition: .3s;
+
+
+
+}
+
+.slowAnim4 {
+    animation: waveMove 25s infinite reverse linear forwards;
+    opacity: 0;
+
+}
+
+.fastAnim4 {
+    animation: waveMove 0.7s infinite reverse linear forwards;
+    top: 600px;
+    opacity: 1;
+}
+
+@keyframes textJump {
+    10% {
+        font-family: $jura-font;
+    }
+
+    30% {
+        font-family: $sofia-font;
+    }
+
+    50% {
+
+        font-family: $jura-font;
+        font-weight: lighter;
+    }
+
+    70% {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    90% {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@keyframes logoMove {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    10% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+
+    30% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    40% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+
+    60% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    70% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    80% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+
+}
+
+@keyframes textMove {
+    0% {
+        // transform: translate(-50%, -50%) scale(0.9) rotate(20deg);
+        letter-spacing: 0;
+    }
+
+    50% {
+        // transform: translate(-50%, -50%) scale(1.2) rotate(-20deg);
+        letter-spacing: 5px;
+    }
+
+    100% {
+        // transform: translate(-50%, -50%) scale(0.9) rotate(20deg);
+        letter-spacing: 0;
+    }
+
+
+}
+
+@keyframes waveMove {
+    0% {
+        left: -1920px;
+    }
+
+    100% {
+        left: 0px;
+    }
+
+}

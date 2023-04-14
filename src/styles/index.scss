@@ -1,0 +1,83 @@
+$white: #D9D9D9;
+$whiter: rgb(241, 241, 241);
+$light-grey: #2A2A2A;
+$lighter-grey: #3b3b3b;
+$grey: #1F1F1F;
+$dark-grey: #1B1B1B;
+$pindsdk: #a32c42;
+$pink: #CD3752;
+$grey-text: rgb(143, 143, 143);
+
+$jura-font: 'Jura', sans-serif;
+$sofia-font: 'Sofia Sans', sans-serif;
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin dark-theme {
+  .background {
+    background-color: $dark-grey;
+  }
+
+  body {
+    background-color: red;
+  }
+
+  a {
+    color: $white;
+  }
+
+  .header {
+    background-color: $dark-grey;
+
+    .header__menu {
+      color: $white;
+    }
+
+    .header__mode {
+      color: $white;
+    }
+  }
+
+}
+
+@mixin light-theme {
+
+  .background {
+    background-color: $whiter;
+  }
+
+  a {
+    color: $dark-grey;
+  }
+
+  .header {
+    background-color: $whiter;
+
+    .header__menu {
+      color: $dark-grey;
+    }
+
+    .header__mode {
+      color: $dark-grey;
+    }
+  }
+
+
+
+}
+
+.dark-mode {
+  @include dark-theme;
+}
+
+.light-mode {
+  @include light-theme;
+}

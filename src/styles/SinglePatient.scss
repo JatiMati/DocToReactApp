@@ -1,0 +1,87 @@
+@import 'Index';
+
+.patient-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+
+.patient-box {
+
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-around;
+    align-items: center;
+
+    background-color: $light-grey;
+    color: $white;
+
+    font-family: $sofia-font;
+    font-weight: 300;
+    border-radius: 20px;
+    width: 450px;
+    height: 100px;
+    margin: 15px 0;
+    transform: scale(1);
+    transition: .1s;
+    box-shadow: 0px 10px 20px 5px rgba(17, 17, 17, 0.281);
+
+
+    .patient-box__img {
+        height: 80px;
+        border-radius: 50%;
+        margin: 0 20px 0 20px;
+
+
+    }
+
+    .male {
+        outline: 4px solid rgb(32, 126, 189)
+    }
+
+    .female {
+        outline: 4px solid rgb(224, 38, 125)
+    }
+
+    .none {
+        outline: 4px solid rgb(255, 255, 255)
+    }
+
+    .patient-box__data {
+        // margin-left: 20px;
+
+        .bold {
+            font-weight: 700;
+        }
+
+        .patient-box__data-name {
+            font-size: 30px;
+            font-weight: 400;
+        }
+
+        .patient-box__data-gender-age {
+            display: flex;
+            flex-direction: column;
+
+            .patient-box__data-age {
+                font-weight: 400;
+            }
+
+            .patient-box__data-gender {}
+        }
+
+        .patient-box__data-email {
+            font-size: 16px;
+        }
+    }
+}
+
+.patient-box:hover {
+    cursor: pointer;
+    background-color: $lighter-grey;
+    transform: scale(1.04);
+}
