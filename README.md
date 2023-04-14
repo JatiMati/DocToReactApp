@@ -5,7 +5,9 @@ A simple application for storing and adding patients to the database.
 Sample patients are taken from
 https://randomuser.me/
 
-In the future, adding visits to the calendar will be implemented if I fix it first.
+
+There is no media querries yet, i had no time!!!
+In the future, adding visits to the calendar will be implemented, if I fix it first.
 
 
 
