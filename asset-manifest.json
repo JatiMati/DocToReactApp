@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DocToReactApp/static/css/main.ee7f7404.css",
+    "main.js": "/DocToReactApp/static/js/main.adebb26b.js",
+    "index.html": "/DocToReactApp/index.html",
+    "main.ee7f7404.css.map": "/DocToReactApp/static/css/main.ee7f7404.css.map",
+    "main.adebb26b.js.map": "/DocToReactApp/static/js/main.adebb26b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee7f7404.css",
+    "static/js/main.adebb26b.js"
+  ]
+}

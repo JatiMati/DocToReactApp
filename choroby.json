@@ -1,0 +1,84 @@
+{
+    "choroby": [
+        {
+            "nazwa": "Hipopotomonstrozesequipedaliofobia",
+            "objawy": [
+                "Trudności z wymawianiem długich słów",
+                "Nadmierne pocenie się",
+                "Gorączka"
+            ]
+        },
+        {
+            "nazwa": "Pseudologia Fantastica",
+            "objawy": [
+                "Ciągłe kłamanie",
+                "Zmienność emocjonalna",
+                "Nadmierna pewność siebie"
+            ]
+        },
+        {
+            "nazwa": "Chronografia",
+            "objawy": [
+                "Niepamięć co do daty",
+                "Pomylenie dni tygodnia",
+                "Problemy z organizacją czasu"
+            ]
+        },
+        {
+            "nazwa": "Choroba bezsensownego śmiechu",
+            "objawy": [
+                "Niezwykłe wybuchy śmiechu w nieodpowiednich momentach",
+                "Trudności z powstrzymywaniem się przed śmiechem",
+                "Nagłe spadki nastroju"
+            ]
+        },
+        {
+            "nazwa": "Paranoja mobilna",
+            "objawy": [
+                "Nadmierne podejrzliwość wobec urządzeń mobilnych",
+                "Ucieczka przed telefonami komórkowymi",
+                "Trudności z komunikacją telefoniczną"
+            ]
+        },
+        {
+            "nazwa": "Nadmierna fascynacja kotami",
+            "objawy": [
+                "Obsesyjne myślenie o kotach",
+                "Zwierzęcy język ciała i komunikacja z kotami",
+                "Nadmierne wydawanie pieniędzy na kocie gadżety"
+            ]
+        },
+        {
+            "nazwa": "Pseudochoroba wakacyjna",
+            "objawy": [
+                "Brak chęci do pracy",
+                "Nadmierna ilość czasu spędzana na plaży",
+                "Zwiększone spożycie alkoholu"
+            ]
+        },
+        {
+            "nazwa": "Choroba intelektualnego młotka",
+            "objawy": [
+                "Nadmierna impulsywność",
+                "Nagłe uderzanie głową w przedmioty",
+                "Trudności z koncentracją"
+            ]
+        },
+        {
+            "nazwa": "Choroba nieprzyzwoitej grawitacji",
+            "objawy": [
+                "Trudności z utrzymaniem równowagi",
+                "Nagłe upadki i przewrócenia",
+                "Zwierzęcy chód"
+            ]
+        },
+        {
+            "nazwa": "Choroba nieudolnego multitaskingu",
+            "objawy": [
+                "Zaburzenia uwagi",
+                "Trudności z jednoczesnym wykonywaniem kilku zadań",
+                "Nadmierne zapominanie o ważnych sprawach"
+            ]
+        }
+    ]
+}
