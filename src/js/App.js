@@ -1,12 +1,3 @@
-// Fetch 200 osób z https://randomuser.me/
-// Dodać state z tablicą zmapowaną z potrzebnymi danymi
-// Dodać state z datą wizyty do każdej osoby
-// Dodać state z opisem każdej osobie
-
-// Dodać state dark mode i podłączyć do header mode
-
-// W base zrobić system wyszukiwania
-
 import React, { Component } from 'react';
 import { BrowserRouter as Router, NavLink, Routes, Route } from 'react-router-dom'
 import '../styles/App.scss'
@@ -102,7 +93,7 @@ class App extends Component {
 
 
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className={this.state.mode ? "dark-mode app" : "light-mode app"}>
           <header>
             <Header mode={this.state.mode} click={this.handleModeChange} />
