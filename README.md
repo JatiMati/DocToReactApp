@@ -1,3 +1,4 @@
-Test aplikacji stworzonej za pomocą React.
+Project testing my ability of creating one page application using React.
 
-Kalendarz nie jest sprawny.
+After deployment on GitHub Fetching doesnt work (working on it)
+Callendar is missing functionality (will implement them soon)
